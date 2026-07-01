@@ -36,6 +36,7 @@ import { startSyncEngine, runSyncEngine } from "@/lib/syncEngine";
 import VersionHistory from "./VersionHistory";
 import AIAssistant from "./AIAssistant";
 import ShareModal from "./ShareModal";
+import Link from "next/link";
 
 export default function EditorClient({ document, user, role }) {
   const [title, setTitle] = useState(document.title);
@@ -459,13 +460,13 @@ export default function EditorClient({ document, user, role }) {
           <span>{wordCount} words</span>
           <span>
             Built by Saksham |{" "}
-            <a href="https://github.com" className="hover:underline">
+            <Link href="https://github.com/Saksham2k3s" className="hover:underline">
               GitHub
-            </a>{" "}
+            </Link>{" "}
             |{" "}
-            <a href="https://linkedin.com" className="hover:underline">
+            <Link href="https://www.linkedin.com/in/sakshamshrivastava" className="hover:underline">
               LinkedIn
-            </a>
+            </Link>
           </span>
         </div>
 
