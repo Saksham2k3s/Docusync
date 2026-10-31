@@ -1,6 +1,6 @@
 # DocuSync
 
-A local-first, collaborative document editor with offline synchronization, field-level conflict resolution, and full version history. Built for the House of Edtech Fullstack Developer assignment.
+A local-first, collaborative document editor with offline synchronization, field-level conflict resolution, and full version history.
 
 **Live demo:** [add your Vercel URL here]
 
